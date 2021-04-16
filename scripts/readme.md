@@ -2,13 +2,14 @@
 
 From project root directory execute below scripts.
 
+
 ### Python environment 
 ./scripts/build_venv.sh
 
 source .venv/bin/activate
 
-### Install 
-./scripts/install_ext.sh
+
+
 
 ### AWS Account config
 
@@ -35,10 +36,12 @@ source .venv/bin/activate
   ]
 }
 `
+### Install extension
+./scripts/install_ext.sh
 
 ### Start JupyterLab 
 ./scripts/start_jupyter.sh
 
 
-# Steps to build the extension from source.
-TODO
+### Steps to build the extension from source and start JupyterLab
+./scripts/build_from_source_and_start.sh
