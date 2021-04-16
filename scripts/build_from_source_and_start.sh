@@ -17,5 +17,5 @@ jupyter labextension install ./
 
 jupyter lab build
 
-jupyter lab --debug
+jupyter lab --notebook-dir=.workspace --debug
 
