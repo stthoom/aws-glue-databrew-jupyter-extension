@@ -3,3 +3,5 @@ coverage
 .DS_Store
 /lib
 *.tsbuildinfo
+.venv
+.ipynb_checkpoints
